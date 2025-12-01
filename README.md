@@ -90,23 +90,12 @@ flink-realtime-dw/
 │   ├── pom.xml
 │   └── submit-aggregation-job.sh      # 提交脚本
 │
-├── clickhouse-grafana/                # 模块5: ClickHouse存储与Grafana可视化 (负责人: 李)
-│   ├── clickhouse_init.sql            # ClickHouse建表脚本
-│   ├── query_examples.sql             # 查询示例
-│   ├── grafana_dashboards/
-│   │   ├── dashboard_realtime_transaction.json  # 实时交易大屏
-│   │   ├── dashboard_product_analysis.json      # 商品分析看板
-│   │   └── dashboard_user_analysis.json         # 用户分析看板
-│   └── grafana_setup.md               # Grafana配置文档
-│
-└── docs/                              # 文档目录
-    ├── 01-项目分工与开发计划.md
-    ├── 02-黄-数据生产模块开发需求文档.md
-    ├── 03-曾-MySQL维度表准备开发需求文档.md
-    ├── 04-林-Flink实时清洗与维度关联开发需求文档.md
-    ├── 05-杨-Flink实时指标聚合开发需求文档.md
-    ├── 06-李-ClickHouse存储与Grafana可视化开发需求文档.md
-    └── deployment_guide.md             # 部署指南
+└── clickhouse-grafana/                # 模块5: ClickHouse存储与Grafana可视化 (负责人: 李)
+    ├── clickhouse_init.sql            # ClickHouse建表脚本
+    └── query_examples.sql             # 查询示例
+    
+
+
 ```
 
 ## 快速开始
