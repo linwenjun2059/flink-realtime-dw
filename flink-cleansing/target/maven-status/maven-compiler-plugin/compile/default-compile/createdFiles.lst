@@ -1,0 +1,10 @@
+com\flink\realtime\cleansing\model\OrderWithUserDim.class
+com\flink\realtime\cleansing\model\OrderMain.class
+com\flink\realtime\cleansing\function\AsyncMySQLUserDimFunction.class
+com\flink\realtime\cleansing\model\OrderJoinResult.class
+com\flink\realtime\cleansing\FlinkCleansingJob$1.class
+com\flink\realtime\cleansing\FlinkCleansingJob.class
+com\flink\realtime\cleansing\model\OrderDetail.class
+com\flink\realtime\cleansing\function\AsyncMySQLProductDimFunction.class
+com\flink\realtime\cleansing\function\DeduplicationProcessFunction.class
+com\flink\realtime\cleansing\model\OrderWide.class

@@ -1,0 +1,13 @@
+com\flink\realtime\aggregation\FlinkAggregationJob$4.class
+com\flink\realtime\aggregation\model\CategoryTopMetrics.class
+com\flink\realtime\aggregation\model\OrderWide.class
+com\flink\realtime\aggregation\model\CityMetrics.class
+com\flink\realtime\aggregation\FlinkAggregationJob$5.class
+com\flink\realtime\aggregation\FlinkAggregationJob$2.class
+com\flink\realtime\aggregation\FlinkAggregationJob$6.class
+com\flink\realtime\aggregation\FlinkAggregationJob$1.class
+com\flink\realtime\aggregation\model\BrandTopMetrics.class
+com\flink\realtime\aggregation\model\TimeWindowMetrics.class
+com\flink\realtime\aggregation\FlinkAggregationJob$3.class
+com\flink\realtime\aggregation\FlinkAggregationJob.class
+com\flink\realtime\aggregation\model\UserLevelMetrics.class

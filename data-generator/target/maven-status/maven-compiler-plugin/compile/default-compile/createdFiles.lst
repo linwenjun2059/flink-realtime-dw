@@ -1,0 +1,7 @@
+com\flink\realtime\generator\ConfigLoader.class
+com\flink\realtime\generator\DataGenerator.class
+com\flink\realtime\generator\model\OrderMain.class
+com\flink\realtime\generator\KafkaProducerUtil.class
+com\flink\realtime\generator\model\OrderDetail.class
+com\flink\realtime\generator\OrderDetailGenerator.class
+com\flink\realtime\generator\OrderMainGenerator.class
