@@ -4,30 +4,6 @@
 
 本项目实现了一个完整的实时数据仓库系统，包含数据生成、实时清洗、维度关联、指标聚合和可视化展示等全流程。
 
-## 效果展示
-
-### Grafana 监控大屏
-
-![实时交易大屏](images/grafana-1.png)
-
-![商品分析看板](images/grafana-2.png)
-
-![用户分析看板](images/grafana-3.png)
-
-### Flink Web UI 作业运行
-![Flink作业运行](images/flink-webui.png)
-
-### Kafka 监控 Topic 列表
-![Kafka Topic列表](images/kafka-topics.png)
-
-### ClickHouse 数据查询
-
-#### 时间窗口指标
-![时间窗口指标](images/clickhouse-time-window.png)
-
-#### 分类 Top8
-![分类Top8](images/clickhouse-category-top8.png)
-
 ### 技术架构
 
 项目采用经典的 Lambda 架构理念，构建了一个完整的实时数据处理链路。
@@ -106,7 +82,7 @@
 ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │                                           基础设施层                                                     │
 │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────────────────────────┐ │
-│  │   Hadoop HA     │  │   Zookeeper     │  │   Flink HA      │  │   集群节点: master1, slave1, slave2 │ │
+│  │   Hadoop HA     │  │   Zookeeper     │  │   Flink HA      │  │   集群节点: master1, master2, slave1, slave2, slave3 │ │
 │  │   (HDFS存储)    │  │   (协调服务)     │  │   (高可用)       │  │                                     │ │
 │  └─────────────────┘  └─────────────────┘  └─────────────────┘  └─────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────────────────────────────────────────────────┘
@@ -209,6 +185,30 @@ flink-realtime-dw/
 
 
 ```
+
+## 效果展示
+
+### Grafana 监控大屏
+
+![实时交易大屏](images/grafana-1.png)
+
+![商品分析看板](images/grafana-2.png)
+
+![用户分析看板](images/grafana-3.png)
+
+### Flink Web UI 作业运行
+![Flink作业运行](images/flink-webui.png)
+
+### Kafka 监控 Topic 列表
+![Kafka Topic列表](images/kafka-topics.png)
+
+### ClickHouse 数据查询
+
+#### 时间窗口指标
+![时间窗口指标](images/clickhouse-time-window.png)
+
+#### 分类 Top8
+![分类Top8](images/clickhouse-category-top8.png)
 
 ## 快速开始
 
